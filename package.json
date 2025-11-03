@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-fullstack-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A nodejs monorepo template with: ReactJs, Chadcn, Typescript, Turborepo, VsCode settings and extensions and others.",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "fmt:biome": "npx @biomejs/biome format --write",
+    "fmt:lint:biome": "npx @biomejs/biome check --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvitin/nodejs-fullstack-monorepo.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Victor Taveira",
+    "email": "victortavi@outlook.com",
+    "url": "https://github.com/elvitin"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/elvitin/nodejs-fullstack-monorepo/issues"
+  },
+  "homepage": "https://github.com/elvitin/nodejs-fullstack-monorepo#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.3.1",
+    "turbo": "latest"
+  },
+  "packageManager": "npm@11.6.2",
+  "workspaces": ["apps/*", "packages/*"]
+}

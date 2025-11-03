@@ -1,0 +1,24 @@
+{
+  "name": "@elvitin/utils",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Shared utils",
+  "license": "MIT",
+  "author": {
+    "name": "Victor Taveira",
+    "email": "victortavi@outlook.com",
+    "url": "https://github.com/elvitin"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "exports": {
+    ".": "./src/constants.ts",
+    "./add": "./src/add.ts",
+    "./multiply": "./src/multiply.ts"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "biomejs.biome",
+    "xabikos.javascriptsnippets",
+    "tomoki1207.pdf",
+    "gruntfuggly.todo-tree",
+    "meganrogge.template-string-converter",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "always",
+    "source.fixAll.biome": "always"
+  },
+  "editor.codeLens": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "explorer.compactFolders": false,
+  "scm.compactFolders": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "tailwindCSS.classFunctions": ["cva"]
+}

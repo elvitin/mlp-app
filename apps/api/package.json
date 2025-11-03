@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "The backend application",
+  "license": "MIT",
+  "author": {
+    "name": "Victor Taveira",
+    "email": "victortavi@outlook.com",
+    "url": "https://github.com/elvitin"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elvitin/utils": "*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
