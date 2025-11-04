@@ -92,7 +92,7 @@ export class MlpBuilder {
     const parts = line.split(this.inputSeparator).map(part => part.trim());
     const inputs = parts.slice(0, -1);
 
-    const normalizedInputs = [];
+    const normalizedInputs: number[] = [];
     for (let i = 0; i < this.attributes.size; i++) {
       const num = Number(inputs[i]);
       const { min, max } = this.attributesRangeList[i];
@@ -104,6 +104,8 @@ export class MlpBuilder {
     // A partir daqui, você pode usar os `normalizedInputs` para o que precisar.
     // Ex: treinar a rede, salvar em outro formato, etc.
     // O console.log abaixo é apenas para demonstração.
+
+    //[0.152381][0.931507][0.636364][0.865672][0.782609][0.863014]
     console.log(`[${normalizedInputs.map(v => v.toFixed(6)).join('][')}]`);
   }
 
