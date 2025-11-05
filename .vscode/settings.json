@@ -34,5 +34,7 @@
   "[json]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "tailwindCSS.classFunctions": ["cva"]
+  "tailwindCSS.classFunctions": ["cva"],
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true
 }
