@@ -106,7 +106,7 @@ export class MlpBuilder {
     // O console.log abaixo é apenas para demonstração.
 
     //[0.152381][0.931507][0.636364][0.865672][0.782609][0.863014]
-    console.log(`[${normalizedInputs.map(v => v.toFixed(6)).join('][')}]`);
+    console.log(`[${normalizedInputs.map(v => v).join('][')}]`);
   }
 
   public calcHiddenLayerSize(): number {

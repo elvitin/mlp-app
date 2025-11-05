@@ -4,7 +4,6 @@
 // console.info({ sum: add(2, 3) });
 // console.info({ E });
 
-import { Mlp } from './mlp';
 import { MlpBuilder } from './mlp_builder';
 
 console.info('Multilayer Perceptron Lab');
@@ -20,6 +19,5 @@ mlpBuilder
     console.error('Error building MLP:', err);
   })
   .finally(() => {
-    new Mlp({ inputLayerSize: 4, outputLayerSize: 10, hiddenLayerSize: 6 }).displayMatrices();
     console.info('MLP build process completed.');
   });
